@@ -3,6 +3,9 @@
 ## Components
 
 1. HTML
-2. CSS
+   -Bootstrap
+2. CSS  
+   -SASS
+3. JavaScript
 
 ## Notes
