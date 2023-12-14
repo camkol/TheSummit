@@ -1,0 +1,64 @@
+$color_1: red;
+$color_2: #573487;
+$color_3: #ff762f;
+$color_4: black;
+$font-family_1: "Raleway", sans-serif;
+$background-color_1: #1f76ff;
+$background-color_2: red;
+
+a {
+  cursor: pointer;
+  &:hover {
+    color: $color_1;
+    text-decoration: underline dotted;
+  }
+}
+.nav-linker {
+  text-decoration: none;
+  &:hover {
+    color: $color_2;
+  }
+}
+.btn {
+  background-color: $background-color_1;
+  border-radius: 30px;
+  color: $color_3;
+  font-family: $font-family_1;
+  font-size: 14px;
+  font-weight: 650;
+  padding: 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2),
+    0px -2px 2px rgba(255, 255, 255, 0.5) inset,
+    0 2px 2px rgba(255, 255, 255, 0.8) inset;
+  &:hover {
+    color: $color_4;
+  }
+  &:active {
+    background-color: $background-color_2;
+    font-size: 22px;
+  }
+}
+.activity {
+  border-radius: 60px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2),
+    0px -2px 10px rgba(255, 255, 255, 0.5) inset,
+    0 10px 10px rgba(255, 255, 255, 0.8) inset;
+  text-transform: uppercase;
+  cursor: pointer;
+  &:hover {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  &:active {
+    color: $color_4;
+    background-color: $background-color_2;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .banner {
+    top: 0;
+  }
+}
