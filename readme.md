@@ -9,3 +9,6 @@
 3. JavaScript
 
 ## Notes
+
+-Improved responsiveness
+-added navigation button
