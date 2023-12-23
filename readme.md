@@ -11,4 +11,5 @@
 ## Notes
 
 -Improved responsiveness
--added navigation button
+-Added navigation button
+-Worked on images and made self-sufficient
